@@ -1,0 +1,9 @@
+/* Pouzijeme border box pro cele HTML
+1) Vytvor menu pro telefon (obrazovka mensi nez 600px)
+    Menu ma libovolnou barvu
+    Menu bude serazeno pod sebou
+    Po najeti zmeni barvu (vyber si ji)
+2) Vytvor menu pro PC
+    Menu je serazeno vedle sebe
+    Polozky menu jsou umisteny ve stredu menu
+    Po najeti na polozku zmeni barvu

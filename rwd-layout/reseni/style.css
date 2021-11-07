@@ -1,0 +1,66 @@
+                    html {
+                        box-sizing: border-box;
+                    }
+                    
+                     ::after::before {
+                        box-sizing: inherit;
+                    }
+                    /*pri opakovani barev
+:root{
+--nav-bg: blue; 
+}*/
+                    
+                    body {
+                        margin: 0;
+                        font-family: sans-serif;
+                    }
+                    
+                    a {
+                        display: block;
+                        color: black;
+                        text-decoration: none;
+                        padding-top: 0.5rem 1rem;
+                    }
+                    
+                    nav {
+                        /*background-color: var */
+                        background-color: #c1f880;
+                        text-align: center;
+                        font-weight: 600;
+                    }
+                    
+                    a:hover,
+                    a:focus {
+                        background-color: yellowgreen;
+                    }
+                    
+                    @media screen and (min-width:600px) {
+                        nav {
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: center
+                        }
+                        nav>a {
+                            margin-right: auto;
+                        }
+                        a {
+                            display: flex;
+                            height: 100%;
+                            align-items: center;
+                        }
+                    }
+                    /*
+.ul{   list-style: none;
+padding-left: 0;
+}
+
+justify-content: center;
+}
+.nav-right { /*prostor pro roztazeni 
+display: flex;
+align-items: stretch;
+}
+
+}
+}
+*/
