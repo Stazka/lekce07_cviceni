@@ -1,0 +1,41 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+
+*,
+ :after,
+ :before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.blok {
+    padding: 20px;
+}
+
+.horni {
+    background-color: hsl(48, 89%, 50%);
+    display: inline-block;
+    float: left;        
+    }
+}
+
+.prvni {
+    background-color: #2ecc71;
+    display: inline;
+    float: right
+}
+
+.druhy {
+    background-color: #e74c3c;
+    display: block;
+    clear: both;
+}
+
+.treti {
+    background-color: #8e44ad;
+}
+
+
+/* ---------------------------------------------------- */
